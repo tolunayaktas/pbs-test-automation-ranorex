@@ -1,0 +1,12 @@
+C:\Dev\pbs-web-automation\pbs-web-automation\bin\Debug\pbs_web_automation.rxtmg
+C:\Dev\pbs-web-automation\pbs-web-automation\bin\Debug\pbs_web_automation.rxtst
+C:\Dev\pbs-web-automation\pbs-web-automation\bin\Debug\pbs-web-automation.exe.config
+C:\Dev\pbs-web-automation\pbs-web-automation\bin\Debug\pbs-web-automation.xml
+C:\Dev\pbs-web-automation\pbs-web-automation\bin\Debug\pbs-web-automation.exe
+C:\Dev\pbs-web-automation\pbs-web-automation\bin\Debug\pbs-web-automation.pdb
+C:\Dev\pbs-web-automation\pbs-web-automation\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Dev\pbs-web-automation\pbs-web-automation\obj\x86\Debug\pbs-web-automation.csproj.AssemblyReference.cache
+C:\Dev\pbs-web-automation\pbs-web-automation\obj\x86\Debug\pbs-web-automation.csproj.CoreCompileInputs.cache
+C:\Dev\pbs-web-automation\pbs-web-automation\obj\x86\Debug\pbs-web-automation.csproj.CopyComplete
+C:\Dev\pbs-web-automation\pbs-web-automation\obj\x86\Debug\pbs-web-automation.exe
+C:\Dev\pbs-web-automation\pbs-web-automation\obj\x86\Debug\pbs-web-automation.pdb

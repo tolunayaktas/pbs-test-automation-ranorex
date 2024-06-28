@@ -1,0 +1,1314 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PBS_WebSite</name>
+    </assembly>
+    <members>
+        <member name="T:pbs_web_automation.PBS_Repository">
+            <summary>
+            The class representing the PBS_Repository element repository.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_Repository.Instance">
+            <summary>
+            Gets the singleton class instance representing the PBS_Repository element repository.
+            </summary>
+        </member>
+        <member name="M:pbs_web_automation.PBS_Repository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_Repository.batterie1">
+            <summary>
+            Gets or sets the value of variable batterie1.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_Repository.varProduct1">
+            <summary>
+            Gets or sets the value of variable varProduct1.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_Repository.varProduct2">
+            <summary>
+            Gets or sets the value of variable varProduct2.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_Repository.varChosenProduct1">
+            <summary>
+            Gets or sets the value of variable varChosenProduct1.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_Repository.varChosenProduct2">
+            <summary>
+            Gets or sets the value of variable varChosenProduct2.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_Repository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_Repository.pbs_webSite">
+            <summary>
+            The pbs_webSite folder.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_Repository.pbs_shopSite">
+            <summary>
+            The pbs_shopSite folder.
+            </summary>
+        </member>
+        <member name="T:pbs_web_automation.PBS_RepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:pbs_web_automation.PBS_RepositoryFolders.Pbs_webSiteAppFolder">
+            <summary>
+            The Pbs_webSiteAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:pbs_web_automation.PBS_RepositoryFolders.Pbs_webSiteAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new pbs_webSite  folder.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.Pbs_webSiteAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.Pbs_webSiteAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.Pbs_webSiteAppFolder.HomePage">
+            <summary>
+            The HomePage folder.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.Pbs_webSiteAppFolder.Navbar">
+            <summary>
+            The Navbar folder.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.Pbs_webSiteAppFolder.PartnerBereichPage">
+            <summary>
+            The PartnerBereichPage folder.
+            </summary>
+        </member>
+        <member name="T:pbs_web_automation.PBS_RepositoryFolders.HomePageFolder">
+            <summary>
+            The HomePageFolder folder.
+            </summary>
+        </member>
+        <member name="M:pbs_web_automation.PBS_RepositoryFolders.HomePageFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new HomePage  folder.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.HomePageFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.HomePageFolder.Logo">
+            <summary>
+            The Logo item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.HomePageFolder.LogoInfo">
+            <summary>
+            The Logo item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.HomePageFolder.Unternehmen">
+            <summary>
+            The Unternehmen item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.HomePageFolder.UnternehmenInfo">
+            <summary>
+            The Unternehmen item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.HomePageFolder.Sortiment">
+            <summary>
+            The Sortiment item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.HomePageFolder.SortimentInfo">
+            <summary>
+            The Sortiment item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.HomePageFolder.Dienstleistungen">
+            <summary>
+            The Dienstleistungen item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.HomePageFolder.DienstleistungenInfo">
+            <summary>
+            The Dienstleistungen item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.HomePageFolder.Logistik">
+            <summary>
+            The Logistik item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.HomePageFolder.LogistikInfo">
+            <summary>
+            The Logistik item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.HomePageFolder.Kontakt">
+            <summary>
+            The Kontakt item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.HomePageFolder.KontaktInfo">
+            <summary>
+            The Kontakt item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.HomePageFolder.Fernwartung">
+            <summary>
+            The Fernwartung item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.HomePageFolder.FernwartungInfo">
+            <summary>
+            The Fernwartung item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.HomePageFolder.Partnerbereich">
+            <summary>
+            The Partnerbereich item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.HomePageFolder.PartnerbereichInfo">
+            <summary>
+            The Partnerbereich item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.HomePageFolder.Carousel">
+            <summary>
+            The Carousel item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.HomePageFolder.CarouselInfo">
+            <summary>
+            The Carousel item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.HomePageFolder.OnlineShop">
+            <summary>
+            The OnlineShop item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.HomePageFolder.OnlineShopInfo">
+            <summary>
+            The OnlineShop item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.HomePageFolder.PBS_Aktuell">
+            <summary>
+            The PBS_Aktuell item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.HomePageFolder.PBS_AktuellInfo">
+            <summary>
+            The PBS_Aktuell item info.
+            </summary>
+        </member>
+        <member name="T:pbs_web_automation.PBS_RepositoryFolders.NavbarFolder">
+            <summary>
+            The NavbarFolder folder.
+            </summary>
+        </member>
+        <member name="M:pbs_web_automation.PBS_RepositoryFolders.NavbarFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Navbar  folder.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.NavbarFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.NavbarFolder.Unternehmensgruppe">
+            <summary>
+            The Unternehmensgruppe item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.NavbarFolder.UnternehmensgruppeInfo">
+            <summary>
+            The Unternehmensgruppe item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.NavbarFolder.UberUns">
+            <summary>
+            The UberUns item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.NavbarFolder.UberUnsInfo">
+            <summary>
+            The UberUns item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.NavbarFolder.Geschichte">
+            <summary>
+            The Geschichte item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.NavbarFolder.GeschichteInfo">
+            <summary>
+            The Geschichte item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.NavbarFolder.Karriere">
+            <summary>
+            The Karriere item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.NavbarFolder.KarriereInfo">
+            <summary>
+            The Karriere item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.NavbarFolder.DasTeam">
+            <summary>
+            The DasTeam item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.NavbarFolder.DasTeamInfo">
+            <summary>
+            The DasTeam item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.NavbarFolder.UnserProduktangebot">
+            <summary>
+            The UnserProduktangebot item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.NavbarFolder.UnserProduktangebotInfo">
+            <summary>
+            The UnserProduktangebot item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.NavbarFolder.Q_Connect">
+            <summary>
+            The Q_Connect item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.NavbarFolder.Q_ConnectInfo">
+            <summary>
+            The Q_Connect item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.NavbarFolder.Donau">
+            <summary>
+            The Donau item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.NavbarFolder.DonauInfo">
+            <summary>
+            The Donau item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.NavbarFolder.E_Committed">
+            <summary>
+            The E_Committed item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.NavbarFolder.E_CommittedInfo">
+            <summary>
+            The E_Committed item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.NavbarFolder.PersoenlicheBetreuung">
+            <summary>
+            The PersoenlicheBetreuung item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.NavbarFolder.PersoenlicheBetreuungInfo">
+            <summary>
+            The PersoenlicheBetreuung item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.NavbarFolder.Marketing_Service">
+            <summary>
+            The Marketing_Service item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.NavbarFolder.Marketing_ServiceInfo">
+            <summary>
+            The Marketing_Service item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.NavbarFolder.Weiteres_Know_how">
+            <summary>
+            The Weiteres_Know_how item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.NavbarFolder.Weiteres_Know_howInfo">
+            <summary>
+            The Weiteres_Know_how item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.NavbarFolder.CIPSCub_Systempartnerschaft">
+            <summary>
+            The CIPSCub_Systempartnerschaft item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.NavbarFolder.CIPSCub_SystempartnerschaftInfo">
+            <summary>
+            The CIPSCub_Systempartnerschaft item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.NavbarFolder.Logistikzentrum">
+            <summary>
+            The Logistikzentrum item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.NavbarFolder.LogistikzentrumInfo">
+            <summary>
+            The Logistikzentrum item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.NavbarFolder.IT___PROZESSE">
+            <summary>
+            The IT___PROZESSE item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.NavbarFolder.IT___PROZESSEInfo">
+            <summary>
+            The IT___PROZESSE item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.NavbarFolder.Kleinteile_lager">
+            <summary>
+            The Kleinteile_lager item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.NavbarFolder.Kleinteile_lagerInfo">
+            <summary>
+            The Kleinteile_lager item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.NavbarFolder.grossteile_lager">
+            <summary>
+            The grossteile_lager item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.NavbarFolder.grossteile_lagerInfo">
+            <summary>
+            The grossteile_lager item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.NavbarFolder.Ansprechpartner">
+            <summary>
+            The Ansprechpartner item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.NavbarFolder.AnsprechpartnerInfo">
+            <summary>
+            The Ansprechpartner item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.NavbarFolder.Anfahrtsplan">
+            <summary>
+            The Anfahrtsplan item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.NavbarFolder.AnfahrtsplanInfo">
+            <summary>
+            The Anfahrtsplan item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.NavbarFolder.Kontaktdaten">
+            <summary>
+            The Kontaktdaten item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.NavbarFolder.KontaktdatenInfo">
+            <summary>
+            The Kontaktdaten item info.
+            </summary>
+        </member>
+        <member name="T:pbs_web_automation.PBS_RepositoryFolders.PartnerBereichPageFolder">
+            <summary>
+            The PartnerBereichPageFolder folder.
+            </summary>
+        </member>
+        <member name="M:pbs_web_automation.PBS_RepositoryFolders.PartnerBereichPageFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new PartnerBereichPage  folder.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.PartnerBereichPageFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.PartnerBereichPageFolder.LoginText">
+            <summary>
+            The LoginText item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.PartnerBereichPageFolder.LoginTextInfo">
+            <summary>
+            The LoginText item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.PartnerBereichPageFolder.Benutzername">
+            <summary>
+            The Benutzername item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.PartnerBereichPageFolder.BenutzernameInfo">
+            <summary>
+            The Benutzername item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.PartnerBereichPageFolder.Passwort">
+            <summary>
+            The Passwort item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.PartnerBereichPageFolder.PasswortInfo">
+            <summary>
+            The Passwort item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.PartnerBereichPageFolder.Anmelden">
+            <summary>
+            The Anmelden item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.PartnerBereichPageFolder.AnmeldenInfo">
+            <summary>
+            The Anmelden item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.PartnerBereichPageFolder.angemeldet_bleiben">
+            <summary>
+            The angemeldet_bleiben item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.PartnerBereichPageFolder.angemeldet_bleibenInfo">
+            <summary>
+            The angemeldet_bleiben item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.PartnerBereichPageFolder.angemeldet_bleiben_checkbox">
+            <summary>
+            The angemeldet_bleiben_checkbox item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.PartnerBereichPageFolder.angemeldet_bleiben_checkboxInfo">
+            <summary>
+            The angemeldet_bleiben_checkbox item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.PartnerBereichPageFolder.PasswortVergessen">
+            <summary>
+            The PasswortVergessen item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.PartnerBereichPageFolder.PasswortVergessenInfo">
+            <summary>
+            The PasswortVergessen item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.PartnerBereichPageFolder.Msg_SupplyUsernameAndPassword">
+            <summary>
+            The Msg_SupplyUsernameAndPassword item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.PartnerBereichPageFolder.Msg_SupplyUsernameAndPasswordInfo">
+            <summary>
+            The Msg_SupplyUsernameAndPassword item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.PartnerBereichPageFolder.Msg_AnErrorHasOccured">
+            <summary>
+            The Msg_AnErrorHasOccured item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.PartnerBereichPageFolder.Msg_AnErrorHasOccuredInfo">
+            <summary>
+            The Msg_AnErrorHasOccured item info.
+            </summary>
+        </member>
+        <member name="T:pbs_web_automation.PBS_RepositoryFolders.Pbs_shopSiteAppFolder">
+            <summary>
+            The Pbs_shopSiteAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:pbs_web_automation.PBS_RepositoryFolders.Pbs_shopSiteAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new pbs_shopSite  folder.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.Pbs_shopSiteAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.Pbs_shopSiteAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.Pbs_shopSiteAppFolder.HomePage">
+            <summary>
+            The HomePage folder.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.Pbs_shopSiteAppFolder.BuerobedarfPage">
+            <summary>
+            The BuerobedarfPage folder.
+            </summary>
+        </member>
+        <member name="T:pbs_web_automation.PBS_RepositoryFolders.HomePageFolder1">
+            <summary>
+            The HomePageFolder1 folder.
+            </summary>
+        </member>
+        <member name="M:pbs_web_automation.PBS_RepositoryFolders.HomePageFolder1.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new HomePage  folder.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.HomePageFolder1.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.HomePageFolder1.Logo">
+            <summary>
+            The Logo item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.HomePageFolder1.LogoInfo">
+            <summary>
+            The Logo item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.HomePageFolder1.SearchBar">
+            <summary>
+            The SearchBar item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.HomePageFolder1.SearchBarInfo">
+            <summary>
+            The SearchBar item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.HomePageFolder1.Anmelden">
+            <summary>
+            The Anmelden item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.HomePageFolder1.AnmeldenInfo">
+            <summary>
+            The Anmelden item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.HomePageFolder1.Merklisten">
+            <summary>
+            The Merklisten item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.HomePageFolder1.MerklistenInfo">
+            <summary>
+            The Merklisten item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.HomePageFolder1.Vergleich">
+            <summary>
+            The Vergleich item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.HomePageFolder1.VergleichInfo">
+            <summary>
+            The Vergleich item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.HomePageFolder1.Warenkorb">
+            <summary>
+            The Warenkorb item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.HomePageFolder1.WarenkorbInfo">
+            <summary>
+            The Warenkorb item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.HomePageFolder1.Schreiben__Malen">
+            <summary>
+            The Schreiben__Malen item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.HomePageFolder1.Schreiben__MalenInfo">
+            <summary>
+            The Schreiben__Malen item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.HomePageFolder1.Papier__Hefte">
+            <summary>
+            The Papier__Hefte item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.HomePageFolder1.Papier__HefteInfo">
+            <summary>
+            The Papier__Hefte item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.HomePageFolder1.Buerobedarf">
+            <summary>
+            The Buerobedarf item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.HomePageFolder1.BuerobedarfInfo">
+            <summary>
+            The Buerobedarf item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.HomePageFolder1.Schulbedarf">
+            <summary>
+            The Schulbedarf item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.HomePageFolder1.SchulbedarfInfo">
+            <summary>
+            The Schulbedarf item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.HomePageFolder1.Mehr">
+            <summary>
+            The Mehr item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.HomePageFolder1.MehrInfo">
+            <summary>
+            The Mehr item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.HomePageFolder1.Carousel">
+            <summary>
+            The Carousel item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.HomePageFolder1.CarouselInfo">
+            <summary>
+            The Carousel item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.HomePageFolder1.Neuheiten">
+            <summary>
+            The Neuheiten item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.HomePageFolder1.NeuheitenInfo">
+            <summary>
+            The Neuheiten item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.HomePageFolder1.Header">
+            <summary>
+            The Header folder.
+            </summary>
+        </member>
+        <member name="T:pbs_web_automation.PBS_RepositoryFolders.HeaderFolder">
+            <summary>
+            The HeaderFolder folder.
+            </summary>
+        </member>
+        <member name="M:pbs_web_automation.PBS_RepositoryFolders.HeaderFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Header  folder.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.HeaderFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.HeaderFolder.Lieferung">
+            <summary>
+            The Lieferung item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.HeaderFolder.LieferungInfo">
+            <summary>
+            The Lieferung item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.HeaderFolder.riesige_Auswahl">
+            <summary>
+            The riesige_Auswahl item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.HeaderFolder.riesige_AuswahlInfo">
+            <summary>
+            The riesige_Auswahl item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.HeaderFolder.Geschaeftskundenshop">
+            <summary>
+            The Geschaeftskundenshop item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.HeaderFolder.GeschaeftskundenshopInfo">
+            <summary>
+            The Geschaeftskundenshop item info.
+            </summary>
+        </member>
+        <member name="T:pbs_web_automation.PBS_RepositoryFolders.BuerobedarfPageFolder">
+            <summary>
+            The BuerobedarfPageFolder folder.
+            </summary>
+        </member>
+        <member name="M:pbs_web_automation.PBS_RepositoryFolders.BuerobedarfPageFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new BuerobedarfPage  folder.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.BuerobedarfPageFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.BuerobedarfPageFolder.BuerobedarfText">
+            <summary>
+            The BuerobedarfText item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.BuerobedarfPageFolder.BuerobedarfTextInfo">
+            <summary>
+            The BuerobedarfText item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.BuerobedarfPageFolder.BuerobedarfLabel">
+            <summary>
+            The BuerobedarfLabel item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.BuerobedarfPageFolder.BuerobedarfLabelInfo">
+            <summary>
+            The BuerobedarfLabel item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.BuerobedarfPageFolder.Sorting">
+            <summary>
+            The Sorting item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.BuerobedarfPageFolder.SortingInfo">
+            <summary>
+            The Sorting item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.BuerobedarfPageFolder.Ansicht">
+            <summary>
+            The Ansicht item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.BuerobedarfPageFolder.AnsichtInfo">
+            <summary>
+            The Ansicht item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.BuerobedarfPageFolder.Kategorie">
+            <summary>
+            The Kategorie item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.BuerobedarfPageFolder.KategorieInfo">
+            <summary>
+            The Kategorie item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.BuerobedarfPageFolder.Marke">
+            <summary>
+            The Marke item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.BuerobedarfPageFolder.MarkeInfo">
+            <summary>
+            The Marke item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.BuerobedarfPageFolder.Umweltfreundlich">
+            <summary>
+            The Umweltfreundlich item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.BuerobedarfPageFolder.UmweltfreundlichInfo">
+            <summary>
+            The Umweltfreundlich item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.BuerobedarfPageFolder.Verfuegbarkeit">
+            <summary>
+            The Verfuegbarkeit item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.BuerobedarfPageFolder.VerfuegbarkeitInfo">
+            <summary>
+            The Verfuegbarkeit item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.BuerobedarfPageFolder.Farbe">
+            <summary>
+            The Farbe item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.BuerobedarfPageFolder.FarbeInfo">
+            <summary>
+            The Farbe item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.BuerobedarfPageFolder.Alle_Filter_anzeigen">
+            <summary>
+            The Alle_Filter_anzeigen item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.BuerobedarfPageFolder.Alle_Filter_anzeigenInfo">
+            <summary>
+            The Alle_Filter_anzeigen item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.BuerobedarfPageFolder.Alle_Filter_zuruecksetzen">
+            <summary>
+            The Alle_Filter_zuruecksetzen item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.BuerobedarfPageFolder.Alle_Filter_zuruecksetzenInfo">
+            <summary>
+            The Alle_Filter_zuruecksetzen item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.BuerobedarfPageFolder.Vergleichsliste">
+            <summary>
+            The Vergleichsliste item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.BuerobedarfPageFolder.VergleichslisteInfo">
+            <summary>
+            The Vergleichsliste item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.BuerobedarfPageFolder.NumberOfProductsToCompare">
+            <summary>
+            The NumberOfProductsToCompare item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.BuerobedarfPageFolder.NumberOfProductsToCompareInfo">
+            <summary>
+            The NumberOfProductsToCompare item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.BuerobedarfPageFolder.Product1">
+            <summary>
+            The Product1 item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.BuerobedarfPageFolder.Product1Info">
+            <summary>
+            The Product1 item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.BuerobedarfPageFolder.Product2">
+            <summary>
+            The Product2 item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.BuerobedarfPageFolder.Product2Info">
+            <summary>
+            The Product2 item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.BuerobedarfPageFolder.ChosenProduct1">
+            <summary>
+            The ChosenProduct1 item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.BuerobedarfPageFolder.ChosenProduct1Info">
+            <summary>
+            The ChosenProduct1 item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.BuerobedarfPageFolder.ChosenProduct2">
+            <summary>
+            The ChosenProduct2 item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.BuerobedarfPageFolder.ChosenProduct2Info">
+            <summary>
+            The ChosenProduct2 item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.BuerobedarfPageFolder.FilterCheckboxHP">
+            <summary>
+            The FilterCheckboxHP item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.BuerobedarfPageFolder.FilterCheckboxHPInfo">
+            <summary>
+            The FilterCheckboxHP item info.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.BuerobedarfPageFolder.Products">
+            <summary>
+            The Products item.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.PBS_RepositoryFolders.BuerobedarfPageFolder.ProductsInfo">
+            <summary>
+            The Products item info.
+            </summary>
+        </member>
+        <member name="T:pbs_web_automation.Recordings.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:pbs_web_automation.Recordings.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the global::pbs_web_automation.PBS_Repository repository.
+            </summary>
+        </member>
+        <member name="M:pbs_web_automation.Recordings.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.Recordings.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:pbs_web_automation.Recordings.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:pbs_web_automation.Recordings.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:pbs_web_automation.Recordings.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:pbs_web_automation.Recordings.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:pbs_web_automation.Recordings.HomePageValidation">
+             <summary>
+            The HomePageValidation recording.
+             </summary>
+        </member>
+        <member name="F:pbs_web_automation.Recordings.HomePageValidation.repo">
+            <summary>
+            Holds an instance of the global::pbs_web_automation.PBS_Repository repository.
+            </summary>
+        </member>
+        <member name="M:pbs_web_automation.Recordings.HomePageValidation.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.Recordings.HomePageValidation.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:pbs_web_automation.Recordings.HomePageValidation.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:pbs_web_automation.Recordings.HomePageValidation.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:pbs_web_automation.Recordings.HomePageValidation.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:pbs_web_automation.Recordings.HomePageValidation.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:pbs_web_automation.Recordings.LoginWithIncorrectValues">
+             <summary>
+            The LoginWithIncorrectValues recording.
+             </summary>
+        </member>
+        <member name="F:pbs_web_automation.Recordings.LoginWithIncorrectValues.repo">
+            <summary>
+            Holds an instance of the global::pbs_web_automation.PBS_Repository repository.
+            </summary>
+        </member>
+        <member name="M:pbs_web_automation.Recordings.LoginWithIncorrectValues.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.Recordings.LoginWithIncorrectValues.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.Recordings.LoginWithIncorrectValues.varIncorrectPassword">
+            <summary>
+            Gets or sets the value of variable varIncorrectPassword.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.Recordings.LoginWithIncorrectValues.varIncorrectUsername">
+            <summary>
+            Gets or sets the value of variable varIncorrectUsername.
+            </summary>
+        </member>
+        <member name="M:pbs_web_automation.Recordings.LoginWithIncorrectValues.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:pbs_web_automation.Recordings.LoginWithIncorrectValues.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:pbs_web_automation.Recordings.LoginWithIncorrectValues.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:pbs_web_automation.Recordings.LoginWithIncorrectValues.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:pbs_web_automation.Recordings.LoginWithoutAnyValue">
+             <summary>
+            The LoginWithoutAnyValue recording.
+             </summary>
+        </member>
+        <member name="F:pbs_web_automation.Recordings.LoginWithoutAnyValue.repo">
+            <summary>
+            Holds an instance of the global::pbs_web_automation.PBS_Repository repository.
+            </summary>
+        </member>
+        <member name="M:pbs_web_automation.Recordings.LoginWithoutAnyValue.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.Recordings.LoginWithoutAnyValue.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:pbs_web_automation.Recordings.LoginWithoutAnyValue.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:pbs_web_automation.Recordings.LoginWithoutAnyValue.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:pbs_web_automation.Recordings.LoginWithoutAnyValue.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:pbs_web_automation.Recordings.LoginWithoutAnyValue.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:pbs_web_automation.Recordings.NavbarValidation">
+             <summary>
+            The NavbarValidation recording.
+             </summary>
+        </member>
+        <member name="F:pbs_web_automation.Recordings.NavbarValidation.repo">
+            <summary>
+            Holds an instance of the global::pbs_web_automation.PBS_Repository repository.
+            </summary>
+        </member>
+        <member name="M:pbs_web_automation.Recordings.NavbarValidation.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.Recordings.NavbarValidation.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:pbs_web_automation.Recordings.NavbarValidation.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:pbs_web_automation.Recordings.NavbarValidation.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:pbs_web_automation.Recordings.NavbarValidation.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:pbs_web_automation.Recordings.NavbarValidation.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:pbs_web_automation.Recordings.NavigateToPartnerbereich">
+             <summary>
+            The NavigateToPartnerbereich recording.
+             </summary>
+        </member>
+        <member name="F:pbs_web_automation.Recordings.NavigateToPartnerbereich.repo">
+            <summary>
+            Holds an instance of the global::pbs_web_automation.PBS_Repository repository.
+            </summary>
+        </member>
+        <member name="M:pbs_web_automation.Recordings.NavigateToPartnerbereich.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.Recordings.NavigateToPartnerbereich.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:pbs_web_automation.Recordings.NavigateToPartnerbereich.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:pbs_web_automation.Recordings.NavigateToPartnerbereich.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:pbs_web_automation.Recordings.NavigateToPartnerbereich.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:pbs_web_automation.Recordings.NavigateToPartnerbereich.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:pbs_web_automation.Recordings.OpenPBSWebSite">
+             <summary>
+            The OpenPBSWebSite recording.
+             </summary>
+        </member>
+        <member name="F:pbs_web_automation.Recordings.OpenPBSWebSite.repo">
+            <summary>
+            Holds an instance of the global::pbs_web_automation.PBS_Repository repository.
+            </summary>
+        </member>
+        <member name="M:pbs_web_automation.Recordings.OpenPBSWebSite.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.Recordings.OpenPBSWebSite.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:pbs_web_automation.Recordings.OpenPBSWebSite.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:pbs_web_automation.Recordings.OpenPBSWebSite.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:pbs_web_automation.Recordings.OpenPBSWebSite.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:pbs_web_automation.Recordings.OpenPBSWebSite.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:pbs_web_automation.Recordings.PartnerbereichPageValidation">
+             <summary>
+            The PartnerbereichPageValidation recording.
+             </summary>
+        </member>
+        <member name="F:pbs_web_automation.Recordings.PartnerbereichPageValidation.repo">
+            <summary>
+            Holds an instance of the global::pbs_web_automation.PBS_Repository repository.
+            </summary>
+        </member>
+        <member name="M:pbs_web_automation.Recordings.PartnerbereichPageValidation.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:pbs_web_automation.Recordings.PartnerbereichPageValidation.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:pbs_web_automation.Recordings.PartnerbereichPageValidation.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:pbs_web_automation.Recordings.PartnerbereichPageValidation.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:pbs_web_automation.Recordings.PartnerbereichPageValidation.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:pbs_web_automation.Recordings.PartnerbereichPageValidation.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

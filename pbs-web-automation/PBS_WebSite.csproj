@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{6CCDF221-B81A-4D1E-8EFA-63E54E43B6F4}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>pbs_web_automation</RootNamespace>
+    <AssemblyName>PBS_WebSite</AssemblyName>
+    <NoWarn>1591</NoWarn>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
+    <RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>af018169-7798-4b3d-936f-1591f16ffbb4</projectdefaultrepository>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>6e3658a2-c044-4f2c-90f2-c565626cc374</id>
+    </Compile>
+    <Compile Include="PBS_Repository.cs">
+      <BoundTo>af018169-7798-4b3d-936f-1591f16ffbb4</BoundTo>
+      <DependentUpon>PBS_Repository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>ef799189-c8a8-4043-b9eb-1af88b7f5eea</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>2eb2f1c6-5921-4d37-a565-5165d9b708f2</id>
+    </Compile>
+    <Compile Include="Recordings\CloseBrowser.cs">
+      <BoundTo>88643f88-552f-4cc3-910e-7f81506ef5c8</BoundTo>
+      <DependentUpon>CloseBrowser.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>37396f7a-ac22-4e02-b370-4f51ab9bff61</id>
+    </Compile>
+    <Compile Include="Recordings\CloseBrowser.UserCode.cs">
+      <BoundTo>88643f88-552f-4cc3-910e-7f81506ef5c8</BoundTo>
+      <DependentUpon>CloseBrowser.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>fd398fbb-e003-4107-849e-7466d9ff1fb6</id>
+    </Compile>
+    <Compile Include="Recordings\HomePageValidation.cs">
+      <DependentUpon>HomePageValidation.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a72f40a8-95dd-4323-b523-654fd06dcc2a</id>
+      <BoundTo>6296aaf2-bb6f-40ca-8490-6e7502ef18e4</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\HomePageValidation.UserCode.cs">
+      <DependentUpon>HomePageValidation.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1eca111e-a604-4691-8b2d-25a3c28d3513</id>
+      <BoundTo>6296aaf2-bb6f-40ca-8490-6e7502ef18e4</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\LoginWithIncorrectValues.cs">
+      <BoundTo>311d9432-f8f9-4928-9282-ee459a5cb18f</BoundTo>
+      <DependentUpon>LoginWithIncorrectValues.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>fbe1148f-3e42-43f1-afa4-739ba44cfaca</id>
+    </Compile>
+    <Compile Include="Recordings\LoginWithIncorrectValues.UserCode.cs">
+      <BoundTo>311d9432-f8f9-4928-9282-ee459a5cb18f</BoundTo>
+      <DependentUpon>LoginWithIncorrectValues.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6715f678-0fd9-4b15-9f41-eb0505789137</id>
+    </Compile>
+    <Compile Include="Recordings\LoginWithoutAnyValue.cs">
+      <BoundTo>4cbb921d-a614-46e5-b5f0-829616cd73b5</BoundTo>
+      <DependentUpon>LoginWithoutAnyValue.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3e511c94-e5ea-49f9-8671-352e72142d2a</id>
+    </Compile>
+    <Compile Include="Recordings\LoginWithoutAnyValue.UserCode.cs">
+      <BoundTo>4cbb921d-a614-46e5-b5f0-829616cd73b5</BoundTo>
+      <DependentUpon>LoginWithoutAnyValue.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>090a3f9f-583a-41ea-9a42-39651cd43599</id>
+    </Compile>
+    <Compile Include="Recordings\NavbarValidation.cs">
+      <BoundTo>f03f5017-6002-48f2-bc86-8481c1366ce4</BoundTo>
+      <DependentUpon>NavbarValidation.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>015375fc-229e-44ce-8a98-1b122c58c26b</id>
+    </Compile>
+    <Compile Include="Recordings\NavbarValidation.UserCode.cs">
+      <BoundTo>f03f5017-6002-48f2-bc86-8481c1366ce4</BoundTo>
+      <DependentUpon>NavbarValidation.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>39c4d2f8-b7cc-4ffa-9d71-421bcfbf6b7d</id>
+    </Compile>
+    <Compile Include="Recordings\NavigateToPartnerbereich.cs">
+      <BoundTo>7b6119c4-ccae-4aa6-8387-a29c8ec199a2</BoundTo>
+      <DependentUpon>NavigateToPartnerbereich.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a1d4bb5c-39b0-4b70-9006-3afea849bc3e</id>
+    </Compile>
+    <Compile Include="Recordings\NavigateToPartnerbereich.UserCode.cs">
+      <BoundTo>7b6119c4-ccae-4aa6-8387-a29c8ec199a2</BoundTo>
+      <DependentUpon>NavigateToPartnerbereich.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>49af72ff-4f78-4a1f-b91f-4e8f1cdaca8d</id>
+    </Compile>
+    <Compile Include="Recordings\OpenPBSWebSite.cs">
+      <BoundTo>8f13d240-5482-4366-a5cc-ee0a1bc10179</BoundTo>
+      <DependentUpon>OpenPBSWebSite.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>45327ac5-0f9f-4213-a6c1-7594e9d23cdd</id>
+    </Compile>
+    <Compile Include="Recordings\OpenPBSWebSite.UserCode.cs">
+      <BoundTo>8f13d240-5482-4366-a5cc-ee0a1bc10179</BoundTo>
+      <DependentUpon>OpenPBSWebSite.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b5ff5a36-2735-474e-a38a-7576653a4387</id>
+    </Compile>
+    <Compile Include="Recordings\PartnerbereichPageValidation.cs">
+      <BoundTo>ca3655e5-5ab6-4043-b83b-5da10d74099f</BoundTo>
+      <DependentUpon>PartnerbereichPageValidation.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d9b75d48-e964-4b20-bb60-edeaef2915c7</id>
+    </Compile>
+    <Compile Include="Recordings\PartnerbereichPageValidation.UserCode.cs">
+      <BoundTo>ca3655e5-5ab6-4043-b83b-5da10d74099f</BoundTo>
+      <DependentUpon>PartnerbereichPageValidation.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b0e01194-d58a-4de0-9671-e72c651e1a9f</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <id>2906bbc8-f1f4-4050-84c1-92e8bc458b51</id>
+    </None>
+    <None Include="PBS_Repository.rximg">
+      <BoundTo>af018169-7798-4b3d-936f-1591f16ffbb4</BoundTo>
+      <DependentUpon>PBS_Repository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>fdc64e11-df19-47dc-9134-7f8b9bdf3be4</id>
+    </None>
+    <None Include="PBS_Repository.rxrep">
+      <id>af018169-7798-4b3d-936f-1591f16ffbb4</id>
+      <repoid>d73ce9b0-a02e-4193-955b-66b0c17bc811</repoid>
+      <reporootid>7b5e8d22-7d7f-4c0d-a9a0-8f6667bebe64</reporootid>
+    </None>
+    <None Include="Recordings\CloseBrowser.rxrec">
+      <BoundTo>af018169-7798-4b3d-936f-1591f16ffbb4</BoundTo>
+      <id>88643f88-552f-4cc3-910e-7f81506ef5c8</id>
+      <recordtableid>0c726da1-805d-4d8e-9e3e-3be7db9c6df5</recordtableid>
+    </None>
+    <None Include="Recordings\HomePageValidation.rxrec">
+      <BoundTo>af018169-7798-4b3d-936f-1591f16ffbb4</BoundTo>
+      <id>6296aaf2-bb6f-40ca-8490-6e7502ef18e4</id>
+      <recordtableid>2d2742fe-22bf-40fc-908a-96317dfe989b</recordtableid>
+    </None>
+    <None Include="Recordings\LoginWithIncorrectValues.rxrec">
+      <BoundTo>af018169-7798-4b3d-936f-1591f16ffbb4</BoundTo>
+      <id>311d9432-f8f9-4928-9282-ee459a5cb18f</id>
+      <recordtableid>0e5c833a-cf50-49f6-b84c-4f2804c24bc1</recordtableid>
+    </None>
+    <None Include="Recordings\LoginWithoutAnyValue.rxrec">
+      <BoundTo>af018169-7798-4b3d-936f-1591f16ffbb4</BoundTo>
+      <id>4cbb921d-a614-46e5-b5f0-829616cd73b5</id>
+      <recordtableid>ec78f223-2dc0-4fe8-a6e1-bc0b86cfaa67</recordtableid>
+    </None>
+    <None Include="Recordings\NavbarValidation.rxrec">
+      <BoundTo>af018169-7798-4b3d-936f-1591f16ffbb4</BoundTo>
+      <id>f03f5017-6002-48f2-bc86-8481c1366ce4</id>
+      <recordtableid>c933cfdf-3186-41f3-a57f-ed4973d74765</recordtableid>
+    </None>
+    <None Include="Recordings\NavigateToPartnerbereich.rxrec">
+      <BoundTo>af018169-7798-4b3d-936f-1591f16ffbb4</BoundTo>
+      <id>7b6119c4-ccae-4aa6-8387-a29c8ec199a2</id>
+      <recordtableid>df180af1-7c41-4ff2-9d6a-048f0e03ab10</recordtableid>
+    </None>
+    <None Include="Recordings\OpenPBSWebSite.rxrec">
+      <BoundTo>af018169-7798-4b3d-936f-1591f16ffbb4</BoundTo>
+      <id>8f13d240-5482-4366-a5cc-ee0a1bc10179</id>
+      <recordtableid>67f5d595-9e39-4d98-9833-7b49d2e107ef</recordtableid>
+    </None>
+    <None Include="Recordings\PartnerbereichPageValidation.rxrec">
+      <BoundTo>af018169-7798-4b3d-936f-1591f16ffbb4</BoundTo>
+      <id>ca3655e5-5ab6-4043-b83b-5da10d74099f</id>
+      <recordtableid>169da5b7-b01b-4ac8-a47d-984912a7e9a1</recordtableid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="PBS_WebSite.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>a0eb6b11-b041-4752-bebd-f01cca0d9d7e</id>
+    </Content>
+    <Content Include="PBS_WebSite.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>1df588fc-17ce-49c8-a8da-22bdb08458b0</id>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Recordings">
+      <id>0e7b0d11-3c2d-4a65-a5bd-c1081fcb9769</id>
+    </Folder>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

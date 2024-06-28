@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="df180af1-7c41-4ff2-9d6a-048f0e03ab10"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="NavigateToPartnerbereich"
+	namespace="pbs_web_automation.Recordings">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="3017d9c9-d1a3-4d87-a09f-828e5a20967a"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="34cbb1ce-0615-4cc8-9875-982d658172a4"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='www.pbs-austria.at']//span[@innertext='Partnerbereich']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="d73ce9b0-a02e-4193-955b-66b0c17bc811"
+	name="PBS_Repository"
+	relativepath="..\PBS_Repository.rxrep">
+		<codegen
+		classname="PBS_WebSite"
+		namespace="pbs_web_automation">
+		</codegen>
+		<rootfolder
+		id="7b5e8d22-7d7f-4c0d-a9a0-8f6667bebe64"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		NavigateToPartnerbereich.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

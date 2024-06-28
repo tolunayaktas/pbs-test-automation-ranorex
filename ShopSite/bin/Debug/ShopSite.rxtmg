@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="ShopSite"
+      id="c796e94c-0512-4689-a763-813d96ec0af7"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="ShopSite"
+      id="c796e94c-0512-4689-a763-813d96ec0af7"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

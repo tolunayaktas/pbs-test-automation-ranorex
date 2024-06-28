@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="99c0124a-0bcb-4172-8ac9-714523983ec1"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenPBSShopSite"
+	namespace="ShopSite.Recordings">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="Chrome"
+		clearcache="False"
+		clearcodecache="False"
+		clearcookies="False"
+		clearserviceworker="False"
+		enabled="True"
+		incognito="False"
+		instrument="True"
+		killexisting="False"
+		maximized="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				https://shop.pbs-austria.at/
+			</url>
+		</openwebsiterecorditem>
+	</recorditems>
+	<repository
+	id="d73ce9b0-a02e-4193-955b-66b0c17bc811"
+	name="PBS_Repository"
+	relativepath="..\..\pbs-web-automation\PBS_Repository.rxrep">
+		<codegen
+		classname="PBS_Repository"
+		namespace="pbs_web_automation">
+		</codegen>
+		<rootfolder
+		id="7b5e8d22-7d7f-4c0d-a9a0-8f6667bebe64"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenPBSShopSite.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

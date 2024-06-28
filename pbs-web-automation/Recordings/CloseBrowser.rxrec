@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="0c726da1-805d-4d8e-9e3e-3be7db9c6df5"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="pbs_web_automation.Recordings">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="e6ebfdf6-b2cc-4d58-99c6-4401333b4014">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="5ad8291b-b4f3-4cac-9859-481ccf7a640a"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='www.pbs-austria.at']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="d73ce9b0-a02e-4193-955b-66b0c17bc811"
+	name="PBS_Repository"
+	relativepath="..\PBS_Repository.rxrep">
+		<codegen
+		classname="PBS_WebSite"
+		namespace="pbs_web_automation">
+		</codegen>
+		<rootfolder
+		id="7b5e8d22-7d7f-4c0d-a9a0-8f6667bebe64"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

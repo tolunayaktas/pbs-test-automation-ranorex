@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="11.0">
+	<testsuiteentryhierarchy>
+		<flatlistofchildren>
+			<modulegroups
+			id="c604b1f6-4467-4575-9893-86d3b1ac8449"
+			name="PBS_WebSite">
+			</modulegroups>
+		</flatlistofchildren>
+		<childhierarchy>
+			<modulegroups
+			id="c604b1f6-4467-4575-9893-86d3b1ac8449"
+			name="PBS_WebSite">
+			</modulegroups>
+		</childhierarchy>
+	</testsuiteentryhierarchy>
+</modulegroupdoc>

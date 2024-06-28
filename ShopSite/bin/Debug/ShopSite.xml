@@ -1,0 +1,189 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ShopSite</name>
+    </assembly>
+    <members>
+        <member name="T:ShopSite.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:ShopSite.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the ShopSiteRepository repository.
+            </summary>
+        </member>
+        <member name="M:ShopSite.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:ShopSite.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:ShopSite.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ShopSite.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ShopSite.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ShopSite.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:ShopSite.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:ShopSite.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the ShopSiteRepository repository.
+            </summary>
+        </member>
+        <member name="M:ShopSite.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:ShopSite.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:ShopSite.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ShopSite.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ShopSite.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ShopSite.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:ShopSite.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:ShopSite.Recording1.repo">
+            <summary>
+            Holds an instance of the ShopSiteRepository repository.
+            </summary>
+        </member>
+        <member name="M:ShopSite.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:ShopSite.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:ShopSite.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ShopSite.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ShopSite.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ShopSite.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:ShopSite.ShopSiteRepository">
+            <summary>
+            The class representing the ShopSiteRepository element repository.
+            </summary>
+        </member>
+        <member name="P:ShopSite.ShopSiteRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the ShopSiteRepository element repository.
+            </summary>
+        </member>
+        <member name="M:ShopSite.ShopSiteRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:ShopSite.ShopSiteRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:ShopSite.ShopSiteRepository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="T:ShopSite.ShopSiteRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:ShopSite.ShopSiteRepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:ShopSite.ShopSiteRepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:ShopSite.ShopSiteRepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:ShopSite.ShopSiteRepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

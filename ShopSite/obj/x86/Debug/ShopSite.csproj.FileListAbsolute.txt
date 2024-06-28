@@ -1,0 +1,12 @@
+C:\Dev\pbs-web-automation\ShopSite\bin\Debug\ShopSite.rxtmg
+C:\Dev\pbs-web-automation\ShopSite\bin\Debug\ShopSite.rxtst
+C:\Dev\pbs-web-automation\ShopSite\bin\Debug\ShopSite.exe.config
+C:\Dev\pbs-web-automation\ShopSite\bin\Debug\ShopSite.xml
+C:\Dev\pbs-web-automation\ShopSite\bin\Debug\ShopSite.exe
+C:\Dev\pbs-web-automation\ShopSite\bin\Debug\ShopSite.pdb
+C:\Dev\pbs-web-automation\ShopSite\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Dev\pbs-web-automation\ShopSite\obj\x86\Debug\ShopSite.csproj.AssemblyReference.cache
+C:\Dev\pbs-web-automation\ShopSite\obj\x86\Debug\ShopSite.csproj.CoreCompileInputs.cache
+C:\Dev\pbs-web-automation\ShopSite\obj\x86\Debug\ShopSite.csproj.CopyComplete
+C:\Dev\pbs-web-automation\ShopSite\obj\x86\Debug\ShopSite.exe
+C:\Dev\pbs-web-automation\ShopSite\obj\x86\Debug\ShopSite.pdb

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="11.0">
+	<testsuiteentryhierarchy>
+		<flatlistofchildren>
+			<modulegroups
+			id="c796e94c-0512-4689-a763-813d96ec0af7"
+			name="PBS_ShopSite">
+			</modulegroups>
+		</flatlistofchildren>
+		<childhierarchy>
+			<modulegroups
+			id="c796e94c-0512-4689-a763-813d96ec0af7"
+			name="PBS_ShopSite">
+			</modulegroups>
+		</childhierarchy>
+	</testsuiteentryhierarchy>
+</modulegroupdoc>
